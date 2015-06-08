@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+#topMenu, #topMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topMenu {
+    height: 3em;
+    background-color: #0ee68d;
+    background-image: linear-gradient(#adff9c, #00ff00);
+    border-radius: 6px;
+    box-shadow: 0 5px 20px #7C5;
+}
+
+#topMenu ul>li {
+    float: left;
+    padding-left: 10px;
+    position: relative;
+}
+
+#topMenu:before,
+#topMenu:after {
+    content: "";
+    display: table;
+}
+
+#topMenu:after {
+    clear: both;
+}
+
+#topMenu {
+    zoom:1;
+}
